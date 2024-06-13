@@ -1,0 +1,198 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    box-sizing: border-box;
+    background-color: #e6e6e6dd;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(14, 42, 113);
+}
+
+#header {
+    width: 100%;
+    height: 5em;
+    background-color: aliceblue;
+    position: fixed;
+    padding: 1%;
+}
+
+.logo {
+    text-transform: uppercase;
+    color: rgb(5, 36, 30);
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.logo h1 {
+    font-family: Gabriola;
+    font-size: 28px;
+    color: cornflowerblue;
+}
+
+.navbar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar nav {
+    margin-right: 25px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul a {
+    font-size: 1rem;
+    padding: 1.5rem;
+    text-transform: uppercase;
+    color: rgb(2, 11, 13);
+    font-weight: 400;
+    letter-spacing: 2px;
+
+}
+
+.navbar ul a:hover {
+    color: antiquewhite;
+    background-color: #f36046;
+}
+
+.blogImg img {
+    width: 100%;
+    margin-top: -114px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    width: 55%;
+    padding: 3em;
+    background-color: white;
+    line-height: 2em;
+    border-radius: 3em;
+    margin-top: -214px;
+}
+
+.content .title {
+    font-family: Gabriola;
+    font-size: 33px;
+    letter-spacing: 2px;
+    line-height: 32px;
+}
+
+.content img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.author {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.author img {
+    width: 57px;
+    margin-right: 8px;
+
+}
+
+.author h3,
+.author p {
+    margin: 0;
+    padding: 0;
+}
+
+.commentbox {
+    width: 55%;
+    padding: 3em;
+    margin: 2em;
+}
+
+.commentbox form div {
+    margin-bottom: 15px;
+}
+
+.commentbox form div input,
+.commentbox form div textarea {
+    width: 100%;
+}
+
+.blogsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    text-align: center;
+    color: blue;
+    background-color: rgb(247, 247, 247);
+    border-bottom: 1px solid;
+    padding: 20px;
+}
+
+.blog-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.blog-box {
+    width: 350px;
+    height: 100%;
+    margin: 20px;
+    border: 1px #f9f9f9dd;
+}
+
+.image {
+    width: 350px;
+    height: 200px;
+    display: flex;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+.blog-text {
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    background-color: #e7dddd;
+    color: #7d8183;
+}
+
+.blog-text span {
+    color: #a81616;
+    font-size: 0.7rem;
+    padding: 3px;
+}
+
+.blog-text-title {
+    font-size: 0.75rem;
+    color: #080808;
+    font-weight: 600;
+}
